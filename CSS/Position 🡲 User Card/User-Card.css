@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contaner{
+    border: 1px  solid rgb(138, 130, 214);
+    margin: 10% 15%  ;
+    
+    
+}
+.heder{
+    background-color: rgb(193, 161, 222);
+    height: 100px;
+    position: relative;
+
+}
+.user{
+    width: 18%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    
+}
+.bodyL{
+    margin-left: 5%;
+}
+.mapJane{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-top: 3%;
+    
+}
+.map{
+    width: 4%;
+}
+.Jane-Doe{
+    margin-top: 8%;
+}
+
+.Developer{
+    margin-top: 3%;
+}
+.gear{
+    width: 4%;
+    
+    
+    
+}
+.gearEdit{
+padding-bottom: 7%;
+ margin-top: 6%;
+}
+.gearEdit label{
+    font-size: 20px;
+    padding: 1%;
+    align-items: center;
+}
