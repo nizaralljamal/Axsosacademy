@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heder{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.ULheder{
+    display: flex;
+    list-style: none;
+   padding: 3%;
+    margin-right: 20%;
+    gap: 70px;
+    color: wheat;
+    font-size: 20px;
+   
+}
+.MyProfile{
+    color: #ffffff;
+}
+.Profile{
+    font-size: 30px;
+}
+.SignOut{
+    background-color: rgb(139, 139, 180);
+    color: white;
+    padding: 10px;
+    box-shadow: 1px 2px 3px rgba(98, 96, 190, 0.9);
+}
+.header-jane-blou{
+    background-color: rgb(111, 111, 250);
+    height: 20%;
+    
+    
+}
+.jane-blou{
+    
+    height: 400px;
+    margin: 1% 3%;
+    margin-right: 60%;
+    position: relative;
+    border: 6px solid rgb(188, 157, 249);
+
+    
+}
+ .todd-s{
+    width: 20%;
+    top: 9%;
+    left: 5%;
+    border-radius: 50%;
+    position: absolute;
+ }
+ .jane{
+    margin-left: 5%;
+    margin-top: 15%;
+ }
+ .mapS{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    gap: 2%;
+    margin-top: 3%;
+ }
+ .map{
+    width: 3%;
+
+ }
+ .Developer{
+    margin-left: 5%;
+    margin-top: 3%;
+ }
+ .editIMG{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-top: 3%;
+    align-items: center;
+    margin-left: 5%;
+ }
+ .gear{
+    width: 3%;
+ }
+ .Education{
+   height: 200px;
+    margin: 1% 3%;
+    margin-right: 60%;
+    position: relative;
+    border: 6px solid rgb(188, 157, 249);
+ }
+ .header-Education{
+    background-color: rgb(58, 54, 54);
+    height: 20%;
+    
+ }
+ .h1Education{
+    color: white;
+    padding-left: 5%;
+    padding-top: 2%;
+ }
+ .H3Education{
+    margin: 5% 5%;
+ }
+ .dec{
+    color: blue;
+ }
+ .RequestsTodd{
+     height: 300px;
+    margin: 1% 3%;
+    margin-right: 60%;
+    position: relative;
+    border: 6px solid rgb(188, 157, 249);
+ }
+ .hederLT{
+    background-color: rgb(58, 54, 54);
+    height: 30%;
+    display: flex;
+    text-align: center;
+    padding-left: 1%;
+     justify-content: space-evenly;
+      align-items: center;
+    
+    
+ }
+ .circel2H1{
+    background-color: rgb(223, 209, 237);
+    margin: 10% 10%;
+    align-items: center;
+    
+    padding: 3% 4%;
+    border-radius: 45%;
+   
+
+    
+ }
+ .bady-RequestsTodd-T{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .arry-s{
+    border-radius: 50%;
+    width: 10%;
+ }
+ .Todd-E{
+    font-size: 25px;
+    padding-right: 10%;
+ }
+ .accept-circle{
+    width: 10%;
+    padding: 1% ;
+    margin: 2% 2%;
+    
+    
+ }
+.contaner{
+
+justify-content: center;
+align-items: center;
+
+}
+.bady-RequestsTodd-B{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
