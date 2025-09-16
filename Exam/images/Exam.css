@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    background-image: url('calculator-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Or a suitable height */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; 
+}
+
+.logo-container img {
+    width: 120px;
+    height: auto;
+    
+}
+
+.ulnav {
+    list-style: none;
+    display: flex;
+    gap: 20%;
+    
+}
+
+.ulnav a {
+    text-decoration: none;
+    color: white; /* Change color for visibility on background */
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+button {
+    background-color: rgb(44, 182, 44);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropbtn {
+    color: white; /* Change color for visibility */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.arrow.rotate {
+    transform: rotate(180deg);
+}
+
+.header-text {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    
+   
+   
+}
+
+.header-text p {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left:4% ;
+    
+}
+
+.header-text p span {
+    color: #d52c16;
+}
+.hr{
+    color: white;
+    margin:1% 0%;
+    margin-right: 90%;
+    margin-left: 4%;
+    font-weight:solid bold;
+    border: 3px solid white;
+    border-radius: 2px;
+   
+}
+.Phr{
+    color: white;
+    font-size: 15px;
+    margin: 1% 0%;
+    margin-left: 4%;
+}
+.twoButon{
+    display: flex;
+    gap: 15px;
+    margin-left: 4%;
+    margin-top: 20px;
+}
+.twoButon button{
+    background-color: #007bff;
+}
+
+.arrow-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.left-arrow {
+    left: 20px;
+}
+
+.right-arrow {
+    right: 20px;
+}
+
+.arrow-btn img {
+    width: 30px;
+    height: 30px;
+}
+.twoButon{
+    
+    margin-bottom: 5%;
+}
+.logo1{
+    margin-left: 20%;
+}
+.sec2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.css{
+    display: flex;
+    border: 1px solid rgb(237, 242, 241);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    gap: 5%;
+}
+.pcss{
+    flex-direction: column;
+    display: flex;
+}
