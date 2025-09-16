@@ -1,0 +1,33 @@
+.heder{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(57, 49, 49);
+    
+   
+}
+ .UL{
+        display: flex;
+        gap: 25px;
+        list-style: none;
+        color: rgba(255, 255, 255, 0.598);
+        align-items: center;
+        margin-left: 30%;
+    }
+    .Profile{
+        color: rgb(255, 255, 255);
+        padding-left: 15px;
+        
+    }
+    .MyProfile{
+        color: rgb(252, 252, 252);
+        
+    }
+    .SignOut{
+        color: white;
+        background-color: rgb(136, 136, 188);
+        margin-right: 15px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        box-shadow: 3px 5px 1px rgba(1, 1, 1, 0.9);
+    }
+    
