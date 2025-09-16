@@ -1,0 +1,181 @@
+.contaner{
+    background-color: rgb(59, 59, 234);
+    width:100%;
+    
+    
+}
+.search{
+    background-color: rgb(64, 49, 49);
+    height: 50px;
+    align-items: center;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.heder{
+    display: flex;
+    /* padding-top: 4%;
+    padding-bottom: 5%; */
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.python2{
+    width: 60%;
+}
+.search1{
+    padding-right: 4px;
+    padding-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    border: none;
+    text-align: center;
+    padding-right: 1px;
+    
+    
+}
+.button{
+    background-color: rgba(85, 78, 164, 0.892);
+    margin-right: 10px;
+    color: white;
+    padding: 1%;
+    border-radius: 5px;
+}
+.label{
+    color: aqua;
+    padding-left: 30px;
+   
+    
+  
+}
+.ul{
+    background-color: rgb(128, 132, 250);
+    opacity: 0.8;
+    box-shadow: 7px 7px 5px rgba(8, 7, 7, 0.9);
+    border-radius: 10px;
+    color: aquamarine;
+    margin: 5%;
+    margin-top: 10px;
+  
+}
+.ul1{
+      display: flex;
+    padding: 2%;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: space-around;
+    
+    font-size: 19px;
+}
+.leftB{
+    
+    width: 50%;
+       
+}
+.ULB{
+    text-align: center;
+    color: aqua;
+    font-size: 100%;
+    margin-left: 14%;
+    margin-right: 40%;
+    
+     
+    text-decoration: underline;
+      list-style-type: none;
+  
+}
+.FAQ{
+    
+}
+.bodyC{
+    display: flex;
+    justify-content: space-around;
+}
+.ul1-yalow{
+    color: yellow;
+}
+#span{
+    color: yellow;
+    text-decoration: underline;
+}
+.rightB{
+    color: white;
+    width: 70%;
+    margin-right: 20%;
+}
+.c{
+    color:yellow;
+    font-size: 30px;
+    margin-left: 40%;
+    list-style-type: none;
+}
+.p{
+    color: white;
+}
+.contanerB{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure
+    
+    
+}
+.getting{
+    margin-top: 20px;
+    text-align: center;
+    border-top:  4px solid black ;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+.Application{
+     margin-top: 20px;
+    text-align: center;
+    border-top:  4px solid black ;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+    
+    }
+
+    .web{
+        list-style-type: none;
+        
+    }
+    .web li {
+        list-style-type:circle;
+        width: 70px;
+        text-align: center;
+        margin-left: 30%;
+        color: rgb(168, 168, 246);
+    }
+    .gettingUl li{
+        list-style-type:circle;
+        width: 60px;
+        text-align: center;
+        margin-left: 30%;
+        color: rgb(168, 168, 246)
+        
+        
+        
+    }
+    .contanerF{
+       display: flex;
+       justify-content: space-evenly;
+       color: rgb(161, 161, 161);
+       padding: 40px 15px;
+       font-size: 27px;
+       font-family:Arial, Helvetica, sans-serif;
+
+
+    }
+    .copy{
+        color: white;
+        
+        justify-content: center;
+        display: flex;
+    }

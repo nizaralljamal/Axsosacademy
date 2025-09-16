@@ -1,0 +1,17 @@
+.mycloud{
+    background-color: black;
+    color: thistle;
+    padding-left: 20px;
+}
+.Completed{
+    background-color: rgba(90, 7, 174, 0.815);
+    color: wheat;
+    text-align: center;
+}
+.us{
+    background-color: rgb(149, 149, 230);
+    color: black;
+    text-align:end;
+    padding: 10px;
+    text-decoration: underline;
+}

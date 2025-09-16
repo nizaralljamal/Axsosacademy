@@ -1,0 +1,64 @@
+.sign-out{
+     margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 6px;
+    background-color: rgb(166, 166, 242);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    opacity: 0.8;
+    box-shadow: 3px 5px 1px rgba(1, 1, 1, 0.9);
+   
+}
+.right{
+    width: 450px;
+    display: flex;
+    padding: 10px;
+}
+.profile{
+    background-color: rgba(0, 0, 0, 0.83);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile1{
+    color: rgb(255, 255, 255);
+    padding-right: 30%;
+}
+.ul{
+    display: flex;
+    padding: 2%;
+    gap: 20px;
+    list-style-type: none;
+    
+   
+
+
+.home{
+    font-weight: bolder;
+font-size: 18px;
+color: rgb(158, 158, 225);
+
+}
+.my{
+      font-weight: bolder;
+font-size: 20px;
+color: beige;
+}
+.find{
+      font-weight: bolder;
+font-size: 18px;
+color: rgb(158 , 158, 225);
+}
+}
+.my1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.home1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.find1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

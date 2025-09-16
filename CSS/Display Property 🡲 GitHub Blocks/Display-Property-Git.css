@@ -1,0 +1,41 @@
+.contaner{
+    background-color: rgba(246, 224, 224, 0.254);
+    
+    
+}
+.img1{
+    background-color: rgb(226, 203, 248);
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.img2{
+    background-color: rgb(248, 203, 203);
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.img3{
+       background-color: rgb(131, 246, 225);
+     display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(83, 83, 80);
+}
+.line{
+    padding: 2px;
+    background-color: black;
+    
+}
+.img1-1{
+    width:200px;
+    
+    margin:  15px;
+    
+}
