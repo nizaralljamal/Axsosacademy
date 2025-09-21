@@ -1,0 +1,1 @@
+https://github.com/nizaralljamal/Axsosacademy/tree/master/python_stack/my_environments/Practice%20pip%20and%20virtualenv
