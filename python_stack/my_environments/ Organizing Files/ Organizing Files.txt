@@ -1,0 +1,4 @@
+mkdir -p python_stack/my_environments python_stack/_python/python_fundamentals python_stack/_python/OOP python_stack/django/django_fundamentals python_stack/django/django_orm python_stack/django/django_fullstack
+(mkdir)(هذا هو الامر الذي من خلاله يمكنني انشاء اي ملف )
+(-p) (هذا الامر قمت باستخدامه لكي اقوم بانشاء الملف الرئيسي والملفات الفرعية من خلال خاصية الاباءء والابناء ولاحفاد)
+

@@ -1,0 +1,137 @@
+# Assignment: Practice using pip in a virtual environment (قمت بوضع على الهاشتاج لابين ان هذا هو العنوان الرئيسي)
+
+This file contains the output and my understanding of the commands executed for the assignment.
+
+--- (قمت بوضع الشحطات لاقوم بفصل الاجزاء عن بعضها )
+
+###  `pip list` (ساقوم بوضع هذا الامر على ترمنل الخاص بي وواضح ماذا يفعل لامر وما هو الناتج واسوقم بتحليل الناتج)
+
+- *1*Explanation:*قمت بوضع النجوم لاقوم بتوضحيح ان هذه الخيارات هي ثانوية وليست عنوان * 
+- *2*Output:**
+- *3*Understanding:**
+
+(glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ python3 -m venv py3Env
+glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ source py3Env/bin/activate
+(py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ pip list
+Package Version
+------- -------
+pip     24.0
+(py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ )
+---
+(ما حدث هنا قمت اولا بعمل بيئة افتراضية داحل ملفي قبل البدا بعمل اي امر او تنزيل اي حزمة لعزل التبعيات وعزل تضارب الحزم بالمستقبل وقمت بربط البيئة الافتراضية في ملف البن لكي عند البحث يبدا بالبحث داخل البيئة لاافتراضية قبل البحث في النظام ثانيا قمت بعمل امر بوب ليست لكي ارى ما هي الحزم التي تم تنزيلها في ملفي داخل البيئة الافتراضية وظهر لي فقط بوب ورقم الاصدار  طبعا ظهر البوب داخل البيئة الافتراضة لانه عند عمل اي بيئة يم تنزيله بشكل افتراضي )
+###  `pip3 list` 
+
+- *1*Explanation:**
+- *2*Output:**
+- *3*Understanding:**
+
+((py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ pip3 list
+Package Version
+------- -------
+pip     24.0)
+
+(هنا عند كتابة امر بوب3 ليست ظهرت نفس النتيجة لانه عند عمل البيئة الافتراضية قمنا بعملها عن طريق اخر اصدار في بايثون وهو 3 لذلك بشكل تلقائي يتم اخذ بوب و بوب3 نفس نتيجة ولكن عند الخروج من البيئة وعمل نفس الامر يتم ظهور الكثير من الحزم التي تم تنزيلها باستخدام بوب بايثون ولكن سوف يتم ظهور نفس النتيجة ايضا ولكن عند وضع هذه الاوامر في الاجهزة القديمةهنا سوف ترى الفرق وهكذا وهذا يفصر لنا نجاح البيئة الافتراضية انه عند استخدام البوب ليست داخلها ظهر فقط عنصر واحد اما خارجها الكثير )
+---
+
+###  `pip install Django==2.2.4`
+
+- *1*Explanation:**
+- *2*Output:**
+- *3*Understanding:**
+
+((py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ pip install Django==2.2.4
+Collecting Django==2.2.4
+  Downloading Django-2.2.4-py3-none-any.whl.metadata (3.5 kB)
+Collecting pytz (from Django==2.2.4)
+  Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting sqlparse (from Django==2.2.4)
+  Downloading sqlparse-0.5.3-py3-none-any.whl.metadata (3.9 kB)
+Downloading Django-2.2.4-py3-none-any.whl (7.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.5/7.5 MB 4.8 MB/s eta 0:00:00
+Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 509.2/509.2 kB 4.6 MB/s eta 0:00:00
+Downloading sqlparse-0.5.3-py3-none-any.whl (44 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.4/44.4 kB 1.4 MB/s eta 0:00:00
+Installing collected packages: pytz, sqlparse, Django
+Successfully installed Django-2.2.4 pytz-2025.2 sqlparse-0.5.3
+(py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ pip3 list
+Package  Version
+-------- -------
+Django   2.2.4
+pip      24.0
+pytz     2025.2
+sqlparse 0.5.3
+(py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ )
+
+(هنا نستنج ايضا عند تنزيل هذه الخزمة وعمل بوب3 ليست ظهرت المزيد من الحزم لانني قمت بتنزيلها الان ولكن ان قمت بالخروج من البيئة وعمل بوب ليسست لن ارى هذه الحزمة لانني قمت بتثبيتها داخل البيئة الافتراضية العازلة )
+---
+
+
+###  `pip freeze`
+
+- *1*Explanation:**
+- *2*Output:**
+- *3*Understanding:**
+
+    ((py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ pip freeze
+Django==2.2.4
+pytz==2025.2
+sqlparse==0.5.3)
+
+(هنا الامر ايضا يظهر جميع الحزم التي تم تنزيلها على البيئة الافتراضية ولكن بصيغة يفهمها الانسان ويسهل معرفة الاسم ورقم الاصدار)
+
+---
+
+###  `pip freeze > requirements.txt`
+
+- *1*Explanation:**
+- *2*Output (contents of requirements.txt):**
+- *3*Understanding:**
+
+((py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ pip freeze > requirements.txt
+(py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ ls
+py3Env  requirements.txt
+(py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ cat requirements.txt
+Django==2.2.4
+pytz==2025.2
+sqlparse==0.5.3
+(py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ )
+(هنا هذا الملف التكست الضي قمت بانشاءه هذا الملف المتعارف عليه لارساله بين المتطورين لتنزيل جميع الحزم المتطلوبة لهذا المشروع ويمكن فتحه عن طريق امر كات وهكذا )
+---
+
+###  `pip uninstall Django`
+
+- *1*Explanation:**
+- *2*Output:**
+- *3*Understanding:**
+
+((py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ pip uninstall Django
+Found existing installation: Django 2.2.4
+Uninstalling Django-2.2.4:
+  Would remove:
+    /home/glitch/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv/py3Env/bin/django-admin
+    /home/glitch/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv/py3Env/bin/django-admin.py
+    /home/glitch/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv/py3Env/lib/python3.12/site-packages/Django-2.2.4.dist-info/*
+    /home/glitch/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv/py3Env/lib/python3.12/site-packages/django/*
+Proceed (Y/n)? y
+  Successfully uninstalled Django-2.2.4
+(py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ )
+
+(هنا قمت بالغاء هذه الحزمة وطلب مني التاكيد وهكذا تم الغاء هذه الحزمة من البيئة الافتراضية بشكل نهائي )
+
+
+---
+
+###  `pip show Django`
+
+- *1*Explanation:**
+- *2*Output:**
+- *3*Understanding:**
+
+(/Practice pip and virtualenv$ pip show Django
+WARNING: Package(s) not found: Django
+(py3Env) glitch@GlitchKali:~/Desktop/WebFun/HTML/test/Axsos Academy/python_stack/my_environments/Practice pip and virtualenv$ )
+
+(هنا عند كتابة هذا الامر لرؤية حزمة دجانجو يقوم لي تحضير هذه الحزمة لم تعد موجودة لانني بسابق قمت بحذفها )
+
+---
