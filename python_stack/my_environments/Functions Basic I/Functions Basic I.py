@@ -31,7 +31,7 @@ print(x)
 #6
 def a(b,c):
     print(b+c)
-print(str(a(1,2)) , str(a(2,3)))
+print((a(1,2)) , (a(2,3)))
 # out put  3 5 None None
 #7
 def a(b,c):
@@ -52,9 +52,9 @@ print(a())
 #9
 def a(b,c):
     if b<c:
-        return 7
+        print(7) 
     else:
-        return 14
+        print(14)
     return 3
 print(a(2,3))
 print(a(5,3))

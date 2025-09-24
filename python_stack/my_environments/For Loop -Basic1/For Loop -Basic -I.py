@@ -7,7 +7,7 @@ print("----------------")
 for x in range (1,101,1):
     if x % 10 == 0:
         print ("Coding Dojo")
-    elif x % 5 == 0:
+    elif x % 2 == 0:
         print("Coding")
     else:
         print(x)

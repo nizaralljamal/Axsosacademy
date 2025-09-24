@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px; 
+    background-color: rgb(201, 201, 254);
+    margin: 0px 10%;
+}
+#search{
+    padding:0.5% 9%;
+    text-align: center;
+    border: 2px solid rgb(10, 10, 10);
+}
+.header button{
+    background-color: rgb(173, 85, 255);
+    padding: 1% 2%;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.9);
+}
+.ninjaTL{
+    margin-bottom: 0.5%;
+    font-size: 20px;
+    
+}
+.ninjaT{
+    border:1px solid black;
+    padding: 2% 2%;
+    margin: 2% auto;
+    margin-right: 55%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.likesTL{
+    background-color: rgb(255, 195, 143);
+    padding: 6% 35%;
+    margin: 18% 0;
+   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.9);
+
+}
+.labelN{
+   margin-left: 13%;
+}
+.ninjaTR{
+    align-items: center;
+    text-align: center;
+}
+.ninjaTR label span{
+    color: blue;
+    text-decoration: underline;
+}
+.badyL{
+   flex-direction: column;
+}
+/* .contanerBady{
+display:flex
+} */
